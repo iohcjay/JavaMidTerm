@@ -1,0 +1,199 @@
+***ANSWER ALL QUESTIONS BELOW***
+
+What is a programming language?
+Answer: A programming language is computer language that is written by developers. It is "code" written in any specific
+language such as C, C++, Java or Python to perform a certain task. Mainly used to develop desktop applications,
+websites, mobile application and even games.
+
+What is a JDK composed of? Define each components?
+Answer: JDK is composed of 3 components JDK, JRE, JVM. JDK or Java Development Kit is a kit that provides the
+environment to develop and execute the Java Program. It includes Development tools which provides an environment to
+develop java programs, and JRE to execute java program. JRE Java Runtime Environment provides an environment that only
+runs the program. JVM or Java Virutal Machine is responsible for executing the Java Program line by line or known
+as interpreter.
+
+What is an IDE?
+Answer: An IDE is Integrated Development Environment. It is a software for building applications that
+combines developer tools into a single GUI. It consists of a Source code editor, build automation tools and a
+debugger. IDEs are used to maximize programmer productivity. Developers can fix thier own code using
+debugger tools within the IDE.
+
+What are some of the most popular Java IDEs available in the market?
+Answer: IntelliJ, Atom, Eclipse, NetBeans, Microsoft Visual Studio
+
+Explain the entire java life cycle.
+Answer: We will start by giving human readable language in a text editor and saving that file into a
+.java file. Then the Java Compiler called javac will then take the human readable language and convert it into
+a machine independent or BYTECODE. the bytecode is then saved as a .class file which is then executed
+inside the JVM which produces machine code.
+
+What is a class?
+Answer: a class is a user defined blueprint from which objects are created. Represents the set of properties
+or methods that are common to all objects of one type.
+
+What is an object?
+Answer: an object is created from a class. It contains states and behaviors.
+
+What is the entry point of an application?
+Answer: the main method
+
+Why is the main() static?
+Answer:it allows the main to be called without creating an object of the class in which the main method is defined
+
+Which class is the superclass of all classes?
+Answer:parent class
+
+What is difference between path and classpath variables?
+Answer:path variable is used to set the path for all Java software tools.
+classpath variable is used to set the path for java classes.
+
+What is the difference between an Interface and Abstract class?
+Answer: Abstract classes can have constants, members, method stubs (methods without a body) and defined methods,
+whereas interfaces can only have constants and methods stubs.  interfaces cannot define any implementation.
+
+
+
+Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
+Answer: No you cannot create an object from an interface or abstract class.
+we can create a reference variable of an abstract class
+
+What is Access Modifier?
+Answer: access modifiers in Java helps to restrict the scope of a class, constructor, variable, method, or data member.
+
+What is OOP? Define each OOP concept.
+Answer:
+
+What is Java Package and which package is imported by default?
+Answer:
+
+What is an API? List some API's that you have used so far.
+Answer:
+
+Does java support multiple inheritance? Why or why not?
+Answer:
+
+What is method overloading and when does it happen?
+Answer:
+
+Explain exceptions in java and how to handle them.
+Answer:
+
+What is static keyword? When and how do we use it?
+Answer:
+
+What is final keyword? When and how do we use it?
+Answer:
+
+Explain the difference between final, finally and finalize?
+Answer:
+
+What is a constructor?
+Answer:
+
+Can we have multiple constructors in a class?
+Answer:
+
+If we don't have a constructor declared, what is called during the object creation?
+Answer:
+
+What is "this" keyword in Java? When would we use it?
+Answer:
+
+What is "super" keyword in Java? What are some scenarios we would use it?
+Answer:
+
+What does JVM stand for?
+Answer:
+
+Is JVM platform independent?
+Answer:
+
+What version of Java are you using?
+Answer:
+
+What does JAR stand for?
+Answer:
+
+What is the difference between JDK and JVM?
+Answer:
+
+What is the difference between JVM and JRE?
+Answer:
+
+Explain the difference between compile-time and run-time?
+Answer:
+
+What is heap?
+Answer:
+
+How does Java manage its memory?
+Answer:
+
+What is the difference between String, StringBuffer and StringBuilder?
+Answer:
+
+What is Singleton class?
+Answer:
+
+What is Serialization and Deserialization?
+Answer:
+
+Explain the difference between While and Do..While loops?
+Answer:
+
+What is Enum?
+Answer:
+
+What is Iterator?
+Answer:
+
+Which one will take more memory: an int or Integer? Why?
+Answer:
+
+Why are Strings considered to be immutable in Java?
+Answer:
+
+What is constructor chaining in Java?
+Answer:
+
+The difference between Serial and Parallel Garbage Collector?
+Answer:
+
+What does JIT stands for?
+Answer:
+
+Explain the process of Java garbage collection?
+Answer:
+
+Can you guarantee the garbage collection process?
+Answer:
+
+What is the difference between stack and heap in Java?
+Answer:
+
+What is reflection in Java and why is it useful?
+Answer:
+
+What is multithreading in Java?
+Answer:
+
+What is synchronization in Java?
+Answer:
+
+What is a Framework?
+Answer:
+
+What are the testing Frameworks available in Java?
+Answer:
+
+What are jUnit and testNG?
+Answer:
+
+What are the dependencies for this project?
+Answer:
+
+What is dependency injection in Java?
+Answer:
+
+Explain what static binding and dynamic binding is?
+Answer:
