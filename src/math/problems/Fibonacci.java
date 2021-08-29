@@ -10,6 +10,14 @@ public class Fibonacci {
 
     public static void main(String[] args) {
 
+        int maxNumbers = 40, previousNumber = 0, nextNumber = 1;
+        System.out.println("Fibonacci Series of "+maxNumbers+" numbers:");
+
+        int i = 1;
+        while (i <=maxNumbers);
+
+    }
+    {
 
     }
 
