@@ -9,27 +9,30 @@ public class Anagram {
     */
 
     public static void main(String[] args) {
-    String str1 = "CAT";
-    String str2 = "ACT";
+    String word = "CAT";
+    String anagram = "ACT";
 
-        str1 = str2.toLowerCase();
-    if(str1.length() == str2.length()){
-        char[] charArray1 = str1.toCharArray();
-        char[] charArray2 = str2.toCharArray();
+        System.out.println("CAT and ACT are anagrams :" + isAnagramUsingStringMethods(word, anagram));
 
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
 
-        boolean result = Arrays.equals(charArray1, charArray2);
 
-        if(result){
-            System.out.println(str1 + " and " + str2 + " are anagram");
+    }
+    public static boolean isAnagramUsingStringMethods(String word, String anagram){
+        if(word.length() != anagram.length())
+            return false;
+
+        for (int i = 0; i < word.length(); i++){
+            char c = word.charAt(i);
+            int index = anagram.indexOf(c);
+
+            if (index != -1){
+                anagram = anagram.substring(0, index) + anagram.substring(index + 1, anagram.length());
+            }   else
+                return false;
         }
-    }
-        else {
-        System.out.println(str1 + " and " + str2 + "are not anagram");
+        return anagram.isEmpty();
     }
     }
 
-}
+
 
