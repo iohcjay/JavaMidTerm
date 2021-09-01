@@ -11,5 +11,17 @@ public class Pattern {
 
         */
 
+        int decrement = 10;
+        int amount_to_decrement = 1;
+        int count = 0;
+
+        for (int i = 100; i > 0; i--) {
+
+            if (count == decrement) {
+                count = 0;
+            }
+            System.out.println(i - amount_to_decrement);
+            count++;
+        }
     }
 }

@@ -1,5 +1,5 @@
-package math.problems;
 
+package math.problems;
 public class Fibonacci {
 
     /*
@@ -10,16 +10,20 @@ public class Fibonacci {
 
     public static void main(String[] args) {
 
-        int maxNumbers = 40, previousNumber = 0, nextNumber = 1;
-        System.out.println("Fibonacci Series of "+maxNumbers+" numbers:");
+        int maxNumber = 40, previousNumber = 0, nextNumber = 1;
 
-        int i = 1;
-        while (i <=maxNumbers);
+        System.out.println("Fibonacci Series of " + maxNumber + " numbers:");
+
+        for (int i = 1; i <= maxNumber; ++i) ;
+        {
+            System.out.println(previousNumber + " ");
+            int sum = previousNumber + nextNumber;
+            previousNumber = nextNumber;
+            nextNumber = sum;
+        }
 
     }
-    {
-
-    }
-
-
 }
+
+
+

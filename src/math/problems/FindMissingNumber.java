@@ -9,7 +9,16 @@ public class FindMissingNumber {
 
          Write a method to find the missing number from the array.
          */
+        int total_num;
         int[] array = new int[] {10, 2, 1, 4, 5, 3, 7, 8, 6};
+        total_num = 10;
+        int expected_num_sum = total_num * ((total_num + 1) / 2);
+        int num_sum = 0;
+        for (int i: array) {
+            num_sum += i;
+        }
+        System.out.println( expected_num_sum - num_sum);
+
 
     }
 

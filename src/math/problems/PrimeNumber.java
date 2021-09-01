@@ -10,19 +10,27 @@ public class PrimeNumber {
 
          Print out the prime numbers in the given range.
          */
-        int limit =1000000;
-        System.out.println("Prime numbers between 1 and " + limit);
+        System.out.println("Prime numbers from 2 to 1000000");
 
-        for(int i=1; i < 10000000; i++){
-            boolean isPrime = true;
-            for(int j=2; j < i ; j++){
-                if(i % j ==0){
-                    isPrime = false;
-                    break;
-                }
+        for (int i = 2; i <= 1000000; i++) {
+            if (isPrime(i)) {
+                System.out.println(i);
             }
         }
-
+    }
+    public static boolean isPrime(int num){
+        if (num == 2 || num == 3){
+            return true;
+        }
+        if (num % 2 == 0 || num % 3 == 0){
+            return false;
+        }
+        for (int i = 3; i < Math.sqrt(num); i += 2){
+            if (num % i == 0 || num % Math.sqrt(num) == 0){
+                return false;
+            }
+        }
+        return true;
     }
 
 }
